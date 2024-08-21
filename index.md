@@ -21,12 +21,15 @@ While these boards can have nice hardware, usually they come with questionable s
 
 ---
 # Status
-This project is still in development, mantainted purely on volunteers. We recommend you having a copy of the stock firmware for your keyboard before flashing the port.
+This project is still in development, maintained purely on volunteers. We recommend you having a copy of the stock firmware for your keyboard before flashing the port.
 
 <Details markdown="block">
 <summary>We currently support the following MCUs:</summary>
 
 {% include table.html data=site.data.mcus %}
+
+Please note that some MCUs may be marked slightly differently. For example, `SN32F248BFG` indicates the `SN32F248` chip model in a "Green" LQFP package variant. Refer to the appropriate datasheet for more information.
+For example, the datasheet for the SN32F248 series can be found [here](https://www.sonix.com.tw/article-en-998-21395#).
 
 </Details>
 
